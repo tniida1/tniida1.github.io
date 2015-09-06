@@ -10,11 +10,24 @@
         <!-- read jquery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <style>
+ 
             body {
+                font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
                 font-size: 14px;
+                padding: 10px;
+                text-align: center;
+                background-image: url(top_banner.png);
+                background-position: center center; 
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-color: #666666;
+                color: white;
             }
             .navbar {
                 border-radius: 0;
+                font-family: 'Vidaloka', serif;
+                font-weight: normal;
             }
             
             .row {
@@ -42,14 +55,14 @@
             
             footer {
                 border-top: 1px solid#e7e7e7;
-                background-color: #f8f8f8;
+                /* background-color: #f8f8f8; */
                 text-align: center;
             }
             
             .copyright {
                 padding: 20px 0;
                 font-size: 12px;
-                color: #666;
+                color: #ddd;
             }
             @media (max-width:768px) {
                 body {
@@ -67,14 +80,39 @@
                     font-size: 14px;
                 }
             }
-            #intro {
-              background: linear-gradient(LightSteelBlue,white);
+            /*
+           #intro {
+              background: linear-gradient(Gray,white);
+           }
+           */
+           #intro h1 {
+                    font-size: 40px;
+                    color: white;
+                    font-family: 'Vidaloka',serif;
+                    font-weight: normal;
+                    text-align: center;
+                    letter-spacing:-1px;
+                    padding-top: 200px;
+                    padding-bottom: 200px;
+                }
+            #about, #works, #contact {
+                padding-top: 10px;
+            }
+            #about h1, #works h1, #contact h1 {
+                    font-size: 40px;
+                    font-family: 'Vidaloka', serif;
+                    font-weight: bold;
+                    color: white;
+            }
+            #about p, #works p, #contact p {
+                    font-weight: normal;
+                    color: white;
             }
         </style>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
@@ -98,17 +136,9 @@
         </header>
         <!-- intro section -->
         <section id="intro" class="intro-section">
-            <br />
-            <br />
-            <br />
-            <br />TBA
-            <br />
-            <br />
-            <br />TBATBATBATBA
-            <br />TBATBATBATBATBA
-            <br />
-            <br />
-            <br />
+            <div class="container">
+            <h1>tniida1 | portfolio</h1>
+            </div>
         </section>
         <!-- about section -->
         <section id="about" class="about-section">
@@ -119,8 +149,8 @@
                 <div class="row">
                     <h2>Web Service developer</h2>
                     <p>TBA</p>
-                    <h2>consultant</h2>
-                    <p>PMO,BPR...etc</p>
+                    <h2>Business Consultant - IC</h2>
+                    <p>PMO, BPR, BizDev, Change Management, etc...</p>
                 </div>
             </div>
         </section>
@@ -130,22 +160,23 @@
                 <div class="page-header">
                     <h1>works</h1>
                 </div>
-                  <div class="row">
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-1" style="border: 1px solid white" ><img src="http://placehold.it/200x150"></div>
+                        <div class="col-md-5 col-md-offset-1" style="border: 1px solid white"><p>TBA1</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-1" style="border: 1px solid white"><img src="http://placehold.it/200x150"></div>
+                        <div class="col-md-5 col-md-offset-1" style="border: 1px solid white"><p>TBA2</p></div> 
+                    </div>                    
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-1" style="border: 1px solid white"><img src="http://placehold.it/200x150"></div>
+                        <div class="col-md-5 col-md-offset-1" style="border: 1px solid white"><p>TBA3</p></div>
+                    </div>  
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-1" style="border: 1px solid white"><img src="http://placehold.it/200x150"></div>
+                        <div class="col-md-5 col-md-offset-1" style="border: 1px solid white"><p>TBA4</p></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -156,26 +187,16 @@
                     <h1>contact</h1>
                 </div>
                 <div class="row">
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
-                    <p>TBA</p>
+                    <div>
+                        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                        <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/takuma-niida/5/bb9/a51" data-format="click" data-related="false"></script> 
+                    </div>
+                </div>
             </div>
         </section>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <footer>
-            <div class="copyright">&copy 2015 manabil inc.</div>
+            <div class="copyright">&copy 2015 tniida1</div>
         </footer>
     </body>
 </html>
